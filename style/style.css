@@ -14,6 +14,7 @@ body {
 
 #title {
 	margin-top: 5%;
+    margin-bottom: 50px;
 	padding-top: 15px;
 	font-size: 150px;
 	font-family: Lilita One;
@@ -53,18 +54,42 @@ body {
 }
 
 .choix input[type='radio']:checked + label {
-	background-color: #00ff15;
+	background-color: #009e0d;
 }
 
 #result {
-    background-color: #00ff15;
+    border: solid 1px #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 50px auto;
+	width: 30%;
+    background-color: #2f7735;
+    font-size: 30px;
+}
+
+#result:hover {
+    animation-name: zoom;
+    animation-duration: 2000ms;
 }
 
 #credit {
-	margin: auto;
+	margin: 20px auto;
 	width: 30%;
 	padding-top: 20px;
 	font-size: 20px;
 	background-color: white;
+    color: #000000;
 	border-radius: 20px;
+}
+
+@keyframes zoom {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(2);
+	}
+    100% {
+		transform: scale(1);
+	}
 }
