@@ -1,0 +1,141 @@
+{
+    "Choix": {
+		"Types de vehicules": [
+			{
+				"Nom": "Citadine",
+				"Poid Moyen": "800-1300kg",
+				"Note": 8
+			},
+			{
+				"Nom": "Cabriolet",
+				"Poid Moyen": "1300-2000kg",
+				"Note": 6
+			},
+			{
+				"Nom": "Berline",
+				"Poid Moyen": "1300-1800kg",
+				"Note": 6.5
+			},
+			{
+				"Nom": "SUV / 4x4",
+				"Poid Moyen": "1500-2500kg",
+				"Note": 4
+			}
+		],
+		"Energie": [
+			{
+				"Nom": "Essence",
+				"Note": 5
+			},
+			{
+				"Nom": "Electrique",
+				"Note": 9
+			},
+			{
+				"Nom": "Gaz",
+				"Note": 6
+			},
+			{
+				"Nom": "Diesel",
+				"Note": 4
+			},
+			{
+				"Nom": "Hybride",
+				"Note": 7
+			}
+		],
+		"Kilometrage": [
+			{
+				"Nom": "5-10K/km",
+				"Note": 9
+			},
+			{
+				"Nom": "10-15K/km",
+				"Note": 7
+			},
+			{
+				"Nom": "15-20K/km",
+				"Note": 5
+			},
+			{
+				"Nom": "20-25K/km",
+				"Note": 3
+			},
+			{
+				"Nom": "25-30K/km",
+				"Note": 1
+			}
+		],
+		"Annee": [
+			{
+				"Nom": "1960-1970",
+				"Note": 1
+			},
+			{
+				"Nom": "1970-1980",
+				"Note": 2
+			},
+			{
+				"Nom": "1980-1990",
+				"Note": 3
+			},
+			{
+				"Nom": "1990-2000",
+				"Note": 4
+			},
+			{
+				"Nom": "2000-2010",
+				"Note": 5
+			},
+			{
+				"Nom": "Après 2010",
+				"Note": 7
+			}
+		],
+		"Passagers": [
+			{
+                "Nom": "1",
+				"Note": 0.11
+			},
+			{
+				"Nom": "2",
+				"Note": -0.17
+			},
+			{
+				"Nom": "3",
+				"Note": -0.29
+			},
+			{
+				"Nom": "4",
+				"Note": -0.53
+			}
+		]
+	},
+	"Taux Emprunt": [
+		{
+			"Score Vehicules Min": 0,
+			"Score Vehicules Max": 10,
+			"Taux Emprunt": 3
+		},
+		{
+			"Score Vehicules Min": 11,
+			"Score Vehicules Max": 15,
+			"Taux Emprunt": 2.74
+		},
+		{
+			"Score Vehicules Min": 16,
+			"Score Vehicules Max": 25,
+			"Taux Emprunt": 2.52
+		},
+		{
+			"Score Vehicules Min": 26,
+			"Score Vehicules Max": 33,
+			"Taux Emprunt": 2.10
+		},
+		{
+			"Score Vehicules Min": 34,
+			"Score Vehicules Max": 40,
+			"Taux Emprunt": 1.85
+		}
+	]
+}
