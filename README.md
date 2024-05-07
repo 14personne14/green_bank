@@ -1,7 +1,7 @@
 # Green Bank
 
 Projet pour le tournoi de l'Asynconf !
-Voir le fichier `green_bank.pdf` pour plus d'informations.
+Voir le fichier `sujet_tournoi.pdf` pour plus d'informations.
 
 ## Utilisation
 
